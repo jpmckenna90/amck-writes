@@ -1,0 +1,12 @@
+#mia-container {
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+#mia-row {
+  max-height: 10vh !important;
+}
+
+p {
+  margin: 0px 0px;
+}

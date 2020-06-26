@@ -1,0 +1,10 @@
+h3 {
+  color: rgba(255, 255, 255, 0.95);
+}
+
+#about-container {
+  background-color: #355b72;
+  opacity: 1;
+  position: sticky;
+  top: 0;
+}

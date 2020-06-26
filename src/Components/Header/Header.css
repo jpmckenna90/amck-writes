@@ -1,0 +1,11 @@
+.header {
+  color: rgba(255, 255, 255, 0.95);
+  font-size: 18vh;
+  /* font-weight: lighter!important; */
+  font-weight: 100;
+  font-family: 'Bellefair', serif;
+}
+
+#header-container {
+  background-color: #355b72;
+}

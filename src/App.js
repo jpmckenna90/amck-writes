@@ -13,8 +13,8 @@ function App() {
     <MyNavbar />
     <Router>
       <Route exact path="/" component={Home} />
-      <Route exact path="/short-form" component={ShortForm} />
-      <Route exact path="/long-form" component={LongForm} />
+      {/* <Route exact path="/short-form" component={ShortForm} />
+      <Route exact path="/long-form" component={LongForm} /> */}
     </Router>
     </>
     // <div className="App">
