@@ -1,15 +1,18 @@
 import React from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
-import "./Mia.css";
+// import "./Mia.css";
 // import basicScroll from "basicscroll";
 
 function Mia() {
   return (
-    <Container>
+    <Container id="miaContainer">
       <Row>
         <Col>
+          <div id="mia-header">
+            <h1 id="mia-h1">Mia</h1>
+          </div>
           <p>
-            &emsp;<span className="dropcap">H</span>alfway between the mustard brown station wagon and her
+            &emsp;Halfway between the mustard brown station wagon and her
             first-floor apartment, Mia let loose a string of curses. Instead of
             sleeping in her own bed that night, she was to sleep in a stranger’s
             home to keep an ancient, 79lb monster of a German Shepherd company
@@ -54,59 +57,59 @@ function Mia() {
             night, when darkness tugged on all assurances of safety.
           </p>
           <p>
-            &emsp;Mia tossed her belongings into a backpack, fetched her pillow
-            and checked the time. She would be two hours and forty-five minutes
-            late in caring for Fritz. She darted into the kitchen and grabbed a
+            Mia tossed her belongings into a backpack, fetched her pillow and
+            checked the time. She would be two hours and forty-five minutes late
+            in caring for Fritz. She darted into the kitchen and grabbed a
             bottle of extra-strength melatonin. Sleep did not come easily in
             strange places. By the time Mia stepped back out into the February
             chill, droplets of freezing rain pattered the grounded leaves. She
             shielded her pillow - her own pillow - from the wet.
           </p>
           <p>
-            &emsp;Ten minutes later, she unlocked the old woman’s door and
-            cracked it by half an inch. Alarmed by the unexpected silence, Mia
-            stuck her whole head inside and looked about. On his bed near the
-            couch, Fritz was motionless. Mia stepped inside and shut the door,
-            frozen in the same spot she had cowered into upon meeting Fritz the
-            week before. She set down her things, removed her shoes and gingerly
-            walked to where the old dog lay.
+            Ten minutes later, she unlocked the old woman’s door and cracked it
+            by half an inch. Alarmed by the unexpected silence, Mia stuck her
+            whole head inside and looked about. On his bed near the couch, Fritz
+            was motionless. Mia stepped inside and shut the door, frozen in the
+            same spot she had cowered into upon meeting Fritz the week before.
+            She set down her things, removed her shoes and gingerly walked to
+            where the old dog lay.
           </p>
           <p>
-            &emsp;“Fritz,” her voice cracked, weak and child-like in her own
-            ears. Fritz lifted his head and sniffed at the air. He gave Mia a
-            sulky look and settled his massive jaw back down on his paws. Mia
-            hunched over with a glorious exhale. “I thought I killed you...” She
+            “Fritz,” her voice cracked, weak and child-like in her own ears.
+            Fritz lifted his head and sniffed at the air. He gave Mia a sulky
+            look and settled his massive jaw back down on his paws. Mia hunched
+            over with a glorious exhale. “I thought I killed you...” She
             considered the dog in repose, thinking of the way children often
             turned especially raucous in front of their parents, only to behave
             quite differently with others when their parents were not around.
           </p>
           <p>
-            &emsp;“Show-off,” Mia smiled. She went into the kitchen and prepared
-            his dinner with great care, following Cristina’s detailed
-            instructions. Fritz remained watchful on his bed, while Mia was sure
-            to keep the dog within her sights. It had taken a single meeting
-            with a Labrador that very autumn to shake Mia's childhood belief
-            that she shared some sacred connection with every creature she met.
-            The Labrador, likely catching the scent of some other charge, had
-            snapped at Mia's outreached hand and snagged a tooth in the meaty
-            flesh of her palm. Two stitches didn't warrant reporting the dog,
-            and though the owner was grateful, Mia was deemed as a “poor fit”
-            and lost the client. She was no mediator between realms after all.
+            “Show-off,” Mia smiled. She went into the kitchen and prepared his
+            dinner with great care, following Cristina’s detailed instructions.
+            Fritz remained watchful on his bed, while Mia was sure to keep the
+            dog within her sights. It had taken a single meeting with a Labrador
+            that very autumn to shake Mia's childhood belief that she shared
+            some sacred connection with every creature she met. The Labrador,
+            likely catching the scent of some other charge, had snapped at Mia's
+            outreached hand and snagged a tooth in the meaty flesh of her palm.
+            Two stitches didn't warrant reporting the dog, and though the owner
+            was grateful, Mia was deemed as a “poor fit” and lost the client.
+            She was no mediator between realms after all.
           </p>
           <p>
-            &emsp;After crushing up the last of his pills and mixing the chalky
-            powder into a bowl of boiled chicken and kibble, Mia tried from a
-            distance to coax Fritz into eating. When this did not work, she
-            tried willing him to go for a walk by shaking his leash near the
-            door as Cristina had instructed.
+            After crushing up the last of his pills and mixing the chalky powder
+            into a bowl of boiled chicken and kibble, Mia tried from a distance
+            to coax Fritz into eating. When this did not work, she tried willing
+            him to go for a walk by shaking his leash near the door as Cristina
+            had instructed.
           </p>
           <p>
-            &emsp;“Easy, easy,” Cristina had sung in an accent Mia couldn't
-            quite place. Fritz would have none of it now, and Mia resented the
-            old woman's mirth from the night they met.
+            “Easy, easy,” Cristina had sung in an accent Mia couldn't quite
+            place. Fritz would have none of it now, and Mia resented the old
+            woman's mirth from the night they met.
           </p>
           <p>
-            &emsp;“Not so <em>easy, easy,</em>” Mia grumbled. In an act of brave
+            “Not so <em>easy, easy,</em>” Mia grumbled. In an act of brave
             abandon, she tried at the very least to pet the dog, but a low growl
             effectively reminded her they were not friends. She curled herself
             onto the couch and glared at Fritz. For three nights, she would have
@@ -115,9 +118,9 @@ function Mia() {
             the dog and settled deeper into the cushions.
           </p>
           <p>
-            &emsp;The place was freezing, but Mia never dared change anything
-            about the homes in her care. She looked about, suddenly wondering if
-            she was on camera, and noticed a blue, yellow and red striped flag
+            The place was freezing, but Mia never dared change anything about
+            the homes in her care. She looked about, suddenly wondering if she
+            was on camera, and noticed a blue, yellow and red striped flag
             pinned to the wall behind her. She pulled her phone from her back
             pocket and determined the flag was that of Romania. Next to the
             flag, a framed puzzle hung offensively askew – the image of a
@@ -128,36 +131,36 @@ function Mia() {
             “Fourteen-Year-Old Girl Stabbed to Death in McKinley Park.”
           </p>
           <p>
-            &emsp;Instantly, Mia recalled this headline as the source of the
-            weight on her soul that day. She had seen it the previous night,
-            when sleep eluded her. Somewhere between three and four in the
-            morning, Mia had wondered about the sharpness of things - what it
-            felt like, being stabbed to death. A ghost in the moonlight, she had
-            walked into her own kitchenette, pulled three knives from the wooden
-            block and pressed their cold points into the soft flesh of her belly
-            - as far as they would go without breaking skin. She thought about
-            her cousin, Rosemary, who would turn fourteen the following year.
-            She replaced the face of the anonymous girl, the “corpse found near
-            the restrooms,” with the lively, freckled face of Rosemary and felt
-            sick at the pain, imagining the blades forced in all the way. Mia
+            Instantly, Mia recalled this headline as the source of the weight on
+            her soul that day. She had seen it the previous night, when sleep
+            eluded her. Somewhere between three and four in the morning, Mia had
+            wondered about the sharpness of things - what it felt like, being
+            stabbed to death. A ghost in the moonlight, she had walked into her
+            own kitchenette, pulled three knives from the wooden block and
+            pressed their cold points into the soft flesh of her belly - as far
+            as they would go without breaking skin. She thought about her
+            cousin, Rosemary, who would turn fourteen the following year. She
+            replaced the face of the anonymous girl, the “corpse found near the
+            restrooms,” with the lively, freckled face of Rosemary and felt sick
+            at the pain, imagining the blades forced in all the way. Mia
             couldn't reconcile herself to the thought that this could
             <em>actually</em> happen to someone, happened all the time, had just
             happened to a <em>child</em> less than a mile from her apartment. It
             was simply too awful of a way to die, yet there it was.
           </p>
           <p>
-            &emsp;Mia couldn’t recall when she started playing this game with
-            herself – this stepping into the horrors on her newsfeed and making
-            them feel as real as they were. She guessed it was around the same
-            time she had to start experimenting with different sleep-aids to get
-            her through her nights without wondering about sharp objects.
-            Whether bullets burned when they entered your body. What a classroom
-            of dead children <em>really</em> looked like.
+            Mia couldn’t recall when she started playing this game with herself
+            – this stepping into the horrors on her newsfeed and making them
+            feel as real as they were. She guessed it was around the same time
+            she had to start experimenting with different sleep-aids to get her
+            through her nights without wondering about sharp objects. Whether
+            bullets burned when they entered your body. What a classroom of dead
+            children <em>really</em> looked like.
           </p>
           <p>
-            &emsp;Mia closed out her phone and placed it face-down on the couch.
-            Fritz was asleep, wheezing and twitching every so often. Mia got up
-            to make her rounds through the tiny apartment, touching objects and
+            Mia closed out her phone and placed it face-down on the couch. Fritz
+            was asleep, wheezing and twitching every so often. Mia got up to
+            make her rounds through the tiny apartment, touching objects and
             inspecting books – half a dozen ESL aids sat nestled between titles
             in a language Mia couldn't decipher. She surmised they were Romanian
             and moved on, curious about a display of miniature bridges and water
@@ -166,7 +169,7 @@ function Mia() {
             suggested Cristina had built all the models herself.
           </p>
           <p>
-            &emsp;Mia was surprised at her own amusement, as though she had not
+            Mia was surprised at her own amusement, as though she had not
             considered the old woman could have interests of her own. She slid
             into the chair of a desk directly next to the bookshelf. There,
             another puzzle lay partially assembled, partially asunder. Mia took
@@ -187,8 +190,8 @@ function Mia() {
             returned it to the place she had found it in.
           </p>
           <p>
-            &emsp;Mia tip-toed into the kitchen, poured herself a glass of water
-            and squeezed every fat leaf of a window-sill succulent, until she
+            Mia tip-toed into the kitchen, poured herself a glass of water and
+            squeezed every fat leaf of a window-sill succulent, until she
             squeezed one too hard and a viscous spray burst across the window
             and part of the wall. She clasped a hand across her mouth to hold
             the laughter, cleaned the mess, rotated the plant and turned her
@@ -200,12 +203,12 @@ function Mia() {
             things.
           </p>
           <p>
-            &emsp;Mia migrated to the bedroom and sunk her weight into the bed.
-            There, on the nightstand, a framed picture of Fritz and Cristina sat
-            beside a ragged English dictionary. In the picture, Fritz was lean
-            and muscular - a proud animal. Cristina held up a blue rosette,
-            smiling as wide as her lips would allow without showing teeth. From
-            the dictionary, loose pages peeked out and beckoned. Mia could not
+            Mia migrated to the bedroom and sunk her weight into the bed. There,
+            on the nightstand, a framed picture of Fritz and Cristina sat beside
+            a ragged English dictionary. In the picture, Fritz was lean and
+            muscular - a proud animal. Cristina held up a blue rosette, smiling
+            as wide as her lips would allow without showing teeth. From the
+            dictionary, loose pages peeked out and beckoned. Mia could not
             master her curiosity. She pulled them and placed the open book
             face-down on the mattress, putting a slew of H-words to bed. The
             first loose page held a prognosis, many of its words highlighted or
@@ -217,20 +220,19 @@ function Mia() {
             water towers and bridges were blown to smithereens.
           </p>
           <p>
-            &emsp;Mia heaved in short, convulsive breaths. She closed her eyes,
-            trying to dam the unforgiving flow of midnight thoughts, where
-            bullets and blades entered flesh, again and again, and none of it
-            mattered.
+            Mia heaved in short, convulsive breaths. She closed her eyes, trying
+            to dam the unforgiving flow of midnight thoughts, where bullets and
+            blades entered flesh, again and again, and none of it mattered.
             <em>Good people. So many good–</em> Mia cried with abandon, until
             the muscles in her stomach contracted and spasmed. Something warm
             touched the side of her elbow, and Mia opened her eyes.
           </p>
           <p>
-            &emsp;Fritz stood before her, swaying and shivering with his deep
-            brown eyes full of concern. He smacked his lips and gave a cry. Mia
-            tried to pronounce his name, but she couldn’t relax the muscles in
-            her throat enough to form speech. The old dog stepped forward,
-            nestled his large head into her lap and sighed, as if to say:
+            Fritz stood before her, swaying and shivering with his deep brown
+            eyes full of concern. He smacked his lips and gave a cry. Mia tried
+            to pronounce his name, but she couldn’t relax the muscles in her
+            throat enough to form speech. The old dog stepped forward, nestled
+            his large head into her lap and sighed, as if to say:
             <em>I know. I know all about it.</em>
           </p>
         </Col>

@@ -5,6 +5,6 @@ h3 {
 #about-container {
   background-color: #355b72;
   opacity: 1;
-  position: sticky;
+  /* position: sticky; */
   top: 0;
 }
