@@ -1,0 +1,26 @@
+.parallax {
+  background-position: bottom center;
+  background-size: auto 1038px;
+  background-repeat: repeat-x;
+  width: 100%;
+  position: absolute;
+  /* background-color:#322232 */
+}
+
+#parallax-wrapper {
+  height:100vh;
+  /* margin-top:100px */
+}
+
+#layer-3 {
+  margin-top: 2%;
+}
+#layer-4 {
+  margin-top: 6%;
+}
+#layer-5 {
+  margin-top: 7%;
+}
+#layer-6 {
+  margin-top: 34%;
+}

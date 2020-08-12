@@ -3,8 +3,13 @@
   font-weight: 400;
   font-style: normal;
   font-size: 2rem;
+  /* padding-top: 1000px; */
+  /* background-color: white; */
 }
 
+body{
+  background-color:#322232
+}
 p {
   padding: 1% 0%;
 }
