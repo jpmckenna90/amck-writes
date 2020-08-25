@@ -22,3 +22,16 @@ h1 {
 a {
   color: white;
 }
+
+.fade-in-section {
+  opacity: 0;
+  /* transform: translateY(20vh); */
+  visibility: hidden;
+  transition: opacity 2s ease-out /*, transform 1.2s ease-out; */;
+  will-change: opacity;
+}
+.fade-in-section.is-visible {
+  opacity: 1;
+  transform: none;
+  visibility: visible;
+}
