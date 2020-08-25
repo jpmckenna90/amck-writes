@@ -3,15 +3,20 @@
   font-weight: 400;
   font-style: normal;
   font-size: 2rem;
-  /* padding-top: 1000px; */
+  padding-top: 100px;
   /* background-color: white; */
 }
 
-body{
-  background-color:#322232
+body {
+  background-color: #322232;
 }
 p {
   padding: 1% 0%;
+  color: white;
+}
+
+h1 {
+  color: white;
 }
 
 a {

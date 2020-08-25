@@ -3,19 +3,20 @@ import "./style.css";
 
 function MiaParallax() {
   window.addEventListener("scroll", function (e) {
-    console.log("we scrollin");
     let top = this.pageYOffset;
 
     let layers = document.getElementsByClassName("parallax");
     let layer, speed, yPos;
     for (var i = 0; i < layers.length; i++) {
-      layer = layers[i];
-      speed = layer.getAttribute("data-speed");
-      yPos = -((top * speed) / 100);
-      layer.setAttribute(
-        "style",
-        "transform: translate3d(0px, " + yPos + "px, 0px)"
-      );
+      if (top < 420) {
+        layer = layers[i];
+        speed = layer.getAttribute("data-speed");
+        yPos = -((top * speed) / 100);
+        layer.setAttribute(
+          "style",
+          "transform: translate3d(0px, " + yPos + "px, 0px)"
+        );
+      }
     }
   });
 
@@ -42,7 +43,7 @@ function MiaParallax() {
           id="layer-3"
           src={require("../../assets/images/Mia/layer-3.png")}
           className="parallax"
-          data-speed="26"
+          data-speed="19"
         />
         {/* faded trees */}
         <img
