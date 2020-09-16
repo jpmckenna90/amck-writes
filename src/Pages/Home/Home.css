@@ -1,7 +1,10 @@
-#home-row {
-  height: 100vh;
-  
-  /* background-color: #52754c; */
+.desktop-nav{
+  height:40px;
+  align-items: center;
+  margin-top:auto;
+  margin-bottom:auto;
 }
 
-
+#nav-row{
+  align-items: center;
+}

@@ -7,14 +7,15 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import MyNavbar from "./Components/Navbar/Navbar";
 import Mia from "./Pages/Mia";
 
+
 function App() {
   return (
     <>
-    {/* <MyNavbar /> */}
-    <Router>
-      <Route exact path="/" component={Home} />
-      <Route exact path="/mia" component={Mia} />
-    </Router>
+      {/* <MyNavbar /> */}
+      <Router>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/mia" component={Mia} />
+      </Router>
     </>
   );
 }

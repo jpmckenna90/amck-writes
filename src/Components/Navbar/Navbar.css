@@ -5,3 +5,11 @@
 a{
   color:black;
 }
+
+.right-border{
+  border-right: 2px solid black;
+}
+
+.desktop-nav:hover{
+  background-color:gray;
+}
