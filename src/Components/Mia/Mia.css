@@ -1,9 +1,9 @@
 #mia-container {
   /* height: 100vh; */
   /* height: 2000px; */
-  height: 100vh !important;
+  /* height: 100vh !important;
   overflow-y: none;
-  background: black;
+  background-color: #322232; */
 }
 
 #mia-row {
@@ -34,4 +34,13 @@ p {
 #mia-header {
   width: 100%;
   text-align: center;
+}
+
+#miaContainer {
+  max-width: 100% !important;
+  background-color: #322232;
+}
+
+.modal-content {
+  background-color: transparent;
 }

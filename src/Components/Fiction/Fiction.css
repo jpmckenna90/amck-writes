@@ -1,7 +1,27 @@
-.fiction-card{
-  height:300px;
+.fiction-card {
+  height: 300px;
 }
 
-#fiction-container{
-  height:100%
+#fiction-container {
+  height: 100%;
+}
+
+.modal {
+  padding-left: 0 !important;
+}
+
+.modal-header {
+  border: none !important;
+}
+.modal-100w {
+  max-width: 100% !important;
+  margin: 0 auto;
+}
+
+.modal.fade .modal-dialog {
+  transition: transform 1s ease-out, -webkit-transform 1s ease-out;
+}
+
+.fade {
+  transition: opacity 1s cubic-bezier(0.1, 0.1, 0.1, 0.1);
 }

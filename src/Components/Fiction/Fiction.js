@@ -1,74 +1,107 @@
 import React, { useState, useEffect } from "react";
-import { Container, Row, Col, Card } from "react-bootstrap";
+import { Container, Row, Col, Card, Modal, Button } from "react-bootstrap";
 import Mia from "../Mia/Mia";
+import StoryModal from "../StoryModal/StoryModal";
 import "./Fiction.css";
 
+function LaunchModal(props) {
+  return (
+    <Modal
+      {...props}
+      centered
+      id="example-custom-modal-styling-title"
+      dialogClassName="modal-100w"
+    >
+      <Modal.Header closeButton></Modal.Header>
+      <Mia />
+    </Modal>
+  );
+}
 function Fiction() {
-  const [currentStory, setStory] = useState("none");
+  const [modalShow, setModalShow] = useState(false);
+  const [story, setStory] = useState("");
 
-  const renderSwitch = (currentStory) => {
-    switch (currentStory) {
-      case "Mia":
-        return <Mia />;
-      default:
-        return (
-          <Container id="fiction-container">
-            <Row>
-              <Col>
-                <Card
-                  className="text-center fiction-card"
-                  onClick={() => setStory("Mia")}
-                >
-                  MIA HERE
-                </Card>
-              </Col>
-              <Col>
-                <Card
-                  className="text-center fiction-card"
-                  onClick={() => setStory("Dogs")}
-                >
-                  DOGS IN THE RIVER HERE
-                </Card>
-              </Col>
-              <Col>
-                <Card className="text-center fiction-card">
-                  THE INTERLEGION HERE
-                </Card>
-              </Col>
-            </Row>
-          </Container>
-        );
-    }
-  };
+  // const handleClose = () => setShow(false);
+  // const handleShow = () => setShow(true);
 
-  return renderSwitch(currentStory);
-  // <>
-  //   <Container id="fiction-container">
-  //     <Row>
-  //       <Col>
-  //         <Card
-  //           className="text-center fiction-card"
-  //           onClick={() => setStory("Mia")}
-  //         >
-  //           MIA HERE
-  //         </Card>
-  //       </Col>
-  //       <Col>
-  //         <Card
-  //           className="text-center fiction-card"
-  //           onClick={() => setStory("Dogs")}
-  //         >
-  //           DOGS IN THE RIVER HERE
-  //         </Card>
-  //       </Col>
-  //       <Col>
-  //         <Card className="text-center fiction-card">
-  //           THE INTERLEGION HERE
-  //         </Card>
-  //       </Col>
-  //     </Row>
-  //   </Container>
-  // </>
+  // const [currentStory, setStory] = useState("none");
+
+  // const renderSwitch = (currentStory) => {
+  //   switch (currentStory) {
+  //     case "Mia":
+  //       return <Mia />;
+  //     default:
+  //       return (
+  //         <Container id="fiction-container">
+  //           <Row>
+  //             <Col>
+  //               <Card
+  //                 className="text-center fiction-card"
+  //                 onClick={() => setStory("Mia")}
+  //               >
+  //                 MIA HERE
+  //               </Card>
+  //             </Col>
+  //             <Col>
+  //               <Card
+  //                 className="text-center fiction-card"
+  //                 onClick={() => setStory("Dogs")}
+  //               >
+  //                 DOGS IN THE RIVER HERE
+  //               </Card>
+  //             </Col>
+  //             <Col>
+  //               <Card className="text-center fiction-card">
+  //                 THE INTERLEGION HERE
+  //               </Card>
+  //             </Col>
+  //           </Row>
+  //         </Container>
+  //       );
+  //   }
+  // };
+
+  // return renderSwitch(currentStory);
+  return (
+    <>
+      <Container id="fiction-container">
+        <Row>
+          <Col>
+            <Card
+              className="text-center fiction-card"
+              onClick={() => {
+                setModalShow(true);
+                setStory("Mia");
+              }}
+            >
+              MIA HERE
+            </Card>
+          </Col>
+          <Col>
+            <Card
+              className="text-center fiction-card"
+              onClick={() => setStory("Dogs")}
+            >
+              DOGS IN THE RIVER HERE
+            </Card>
+          </Col>
+          <Col>
+            <Card className="text-center fiction-card">
+              THE INTERLEGION HERE
+            </Card>
+          </Col>
+        </Row>
+      </Container>
+
+      <LaunchModal
+        story={story}
+        show={modalShow}
+        onHide={() => setModalShow(false)}
+        // dialogClassName="modal-90w"
+        aria-labelledby="example-custom-modal-styling-title"
+      ></LaunchModal>
+    </>
+  );
 }
 
 export default Fiction;

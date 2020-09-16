@@ -244,7 +244,7 @@
 import React from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
 import MiaParallax from "../MiaParallax/MiaParallax";
-// import "./Mia.css";
+import "./Mia.css";
 // import basicScroll from "basicscroll";
 
 function FadeInSection(props) {
