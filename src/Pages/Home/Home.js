@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import Header from "../../Components/Header/Header";
+import MyNavbar from "../../Components/Navbar/Navbar";
 import About from "../../Components/About/About";
 import Mia from "../../Components/Mia/Mia";
 import "./Home.css";
@@ -13,7 +14,8 @@ function Home() {
         <Col>
           <Row>
             <Header />
-            <About />
+            <MyNavbar />
+            {/* <About /> */}
           </Row>
         </Col>
       </Row>

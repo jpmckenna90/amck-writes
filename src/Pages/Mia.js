@@ -49,8 +49,8 @@ function Mia() {
                 Shepherd company while his owner was away. Mia had forgotten
                 about the dog named Fritz, and when her expletives ran dry, she
                 sighed the kind of sigh that came from deep within – the kind
-                that said
-                <em>this well is empty</em>.
+                that said:
+                <em> this well is empty</em>.
               </p>
             </FadeInSection>
             <FadeInSection>

@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+import { Parallax } from "react-scroll-parallax";
 
 function MiaParallax() {
   window.addEventListener("scroll", function (e) {
@@ -24,16 +25,20 @@ function MiaParallax() {
     <>
       <div id="parallax-wrapper">
         {/* sky layer */}
-        <img
-          alt="layer-1"
-          src={require("../../assets/images/Mia/layer-1.png")}
-          className="parallax"
-          data-speed="11"
-        />
+        {/* <Parallax className="custom-class" y={[0, 20]}> */}
+          <img
+            alt="layer-1"
+            id="layer-1"
+            src={require("../../assets/images/new-images/Mia-7.png")}
+            className="parallax"
+            data-speed="11"
+          />
+        {/* </Parallax> */}
         {/* back mountains */}
         <img
           alt="layer-2"
-          src={require("../../assets/images/Mia/layer-2.png")}
+          id="layer-2"
+          src={require("../../assets/images/new-images/Mia-6.png")}
           className="parallax"
           data-speed="16"
         />
@@ -41,7 +46,7 @@ function MiaParallax() {
         <img
           alt="layer-3"
           id="layer-3"
-          src={require("../../assets/images/Mia/layer-3.png")}
+          src={require("../../assets/images/new-images/Mia-5.png")}
           className="parallax"
           data-speed="19"
         />
@@ -49,7 +54,7 @@ function MiaParallax() {
         <img
           alt="layer-4"
           id="layer-4"
-          src={require("../../assets/images/Mia/layer-4.png")}
+          src={require("../../assets/images/new-images/Mia-4.png")}
           className="parallax"
           data-speed="30"
         />
@@ -57,7 +62,7 @@ function MiaParallax() {
         <img
           alt="layer-5"
           id="layer-5"
-          src={require("../../assets/images/Mia/layer-5.png")}
+          src={require("../../assets/images/new-images/Mia-3.png")}
           className="parallax"
           data-speed="59"
         />
@@ -65,17 +70,17 @@ function MiaParallax() {
         <img
           alt="layer-6"
           id="layer-6"
-          src={require("../../assets/images/Mia/layer-6.png")}
+          src={require("../../assets/images/new-images/Mia-2.png")}
           className="parallax"
-          data-speed="159"
+          data-speed="20"
         />
         {/* text */}
-        {/* <img
+        <img
           alt="layer-7"
-          src={require("../../assets/images/Mia/layer-7.png")}
+          src={require("../../assets/images/new-images/Mia-1.png")}
           className="parallax"
           data-speed="-35"
-        /> */}
+        />
       </div>
     </>
   );

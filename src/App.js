@@ -10,7 +10,7 @@ import Mia from "./Pages/Mia";
 function App() {
   return (
     <>
-    <MyNavbar />
+    {/* <MyNavbar /> */}
     <Router>
       <Route exact path="/" component={Home} />
       <Route exact path="/mia" component={Mia} />
