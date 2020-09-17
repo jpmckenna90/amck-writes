@@ -3,19 +3,23 @@ import { Container, Row, Col } from "react-bootstrap";
 import "./About.css";
 
 function About() {
+  const weeklyAdjective = () => {
+    const adjectives = ["fat", "perfect", "real", "actual", "biological"];
+    // console.log(Math.floor(Math.random(adjectives.length)));
+    // console.log(Math.random(adjectives.length));
+    console.log(Math.floor(Math.random() * adjectives.length - 1));
+    return adjectives[Math.floor(Math.random() * adjectives.length - 1)];
+  };
+
   return (
     <Container fluid id="about-container">
       <Row className="mt-4">
         <Col lg={4}></Col>
         <Col lg={8}>
           <h3>
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum."
+            Originally hailing from South Africa, Adele McKenna is an author,
+            artist and freelance content creator residing in Philadelphia, PA,
+            with her husband and three {weeklyAdjective()} cats.
           </h3>
         </Col>
       </Row>

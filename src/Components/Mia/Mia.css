@@ -38,7 +38,8 @@ p {
 
 #miaContainer {
   max-width: 100% !important;
-  background-color: #322232;
+  /* background-color: #322232; */
+  background-color: #312231;
 }
 
 .modal-content {
