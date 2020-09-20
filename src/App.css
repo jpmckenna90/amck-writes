@@ -4,7 +4,7 @@
   font-style: normal;
   font-size: 2rem;
   padding-top: 100px;
-  /* background-color: white; */
+  background-color: white;
 }
 
 body {
@@ -12,11 +12,11 @@ body {
 }
 p {
   padding: 1% 0%;
-  color: white;
+  color: black;
 }
 
 h1 {
-  color: white;
+  color: black;
 }
 
 a {
@@ -29,6 +29,7 @@ a {
   visibility: hidden;
   transition: opacity 2s ease-out /*, transform 1.2s ease-out; */;
   will-change: opacity;
+  margin: 0% 10% 0% 10%;
 }
 .fade-in-section.is-visible {
   opacity: 1;

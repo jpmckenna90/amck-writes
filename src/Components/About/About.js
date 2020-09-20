@@ -1,12 +1,10 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-// import getISOWeek from "date-fns";
-import getISOWeek from "date-fns/getISOWeek";
 import getWeek from "date-fns/getWeek";
 import "./About.css";
 
 function About() {
-  const weeklyAdjective = () => {
+  const randomAdjective = () => {
     const adjectives = [
       "fat",
       "perfect",
@@ -63,8 +61,8 @@ function About() {
       "chonky",
     ];
 
-    let result = getWeek(new Date(2020, 1, 1));
-    return adjectives[result];
+    // Choose and return random adjective from array 
+    return adjectives[Math.floor(Math.random() * adjectives.length)];
   };
 
   return (
@@ -75,7 +73,7 @@ function About() {
           <h3>
             Originally hailing from South Africa, Adele McKenna is an author,
             artist and freelance content creator residing in Philadelphia, PA,
-            with her husband and three {weeklyAdjective()} cats.
+            with her husband and three {randomAdjective()} cats.
           </h3>
         </Col>
       </Row>

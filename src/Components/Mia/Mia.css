@@ -1,9 +1,9 @@
 #mia-container {
   /* height: 100vh; */
   /* height: 2000px; */
-  /* height: 100vh !important;
-  overflow-y: none;
-  background-color: #322232; */
+   /* height: 100vh !important;
+  overflow-y: none; */
+  /* background-color: #322232;  */
 }
 
 #mia-row {
@@ -39,9 +39,13 @@ p {
 #miaContainer {
   max-width: 100% !important;
   /* background-color: #322232; */
-  background-color: #312231;
+  /* background-color: #312231; */
 }
 
 .modal-content {
-  background-color: transparent;
+  background-color: #312231;
+}
+
+.card:hover{
+  cursor: pointer;
 }

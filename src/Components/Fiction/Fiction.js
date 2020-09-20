@@ -74,7 +74,14 @@ function Fiction() {
                 setStory("Mia");
               }}
             >
-              MIA HERE
+              <h1 className="card-h1">Mia</h1>
+              <hr />
+              <p className="card-p">
+                <em>
+                  "Somewhere in her mind, water towers and bridges were blown to
+                  smithereens."
+                </em>
+              </p>
             </Card>
           </Col>
           <Col>
@@ -82,12 +89,24 @@ function Fiction() {
               className="text-center fiction-card"
               onClick={() => setStory("Dogs")}
             >
-              DOGS IN THE RIVER HERE
+              <h1 className="card-h1">Dogs in the River</h1>
+              <hr />
+              <p className="card-p">
+                <em>
+                  "Roy no stop what are you doing"
+                </em>
+              </p>
             </Card>
           </Col>
           <Col>
             <Card className="text-center fiction-card">
-              THE INTERLEGION HERE
+              <h1 className="card-h1">The Interlegion</h1>
+              <hr />
+              <p className="card-p">
+                <em>
+                  "Pew pew pew pew pew"
+                </em>
+              </p>
             </Card>
           </Col>
         </Row>
