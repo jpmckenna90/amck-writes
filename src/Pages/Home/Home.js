@@ -91,19 +91,22 @@ function Home() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav>
-              <Nav.Link href="About" className="nav-links">
+              <Nav.Link onClick={() => setPage("About")} className="nav-links">
                 About
               </Nav.Link>
 
-              <Nav.Link href="Fiction" className="nav-links">
+              <Nav.Link
+                onClick={() => setPage("Fiction")}
+                className="nav-links"
+              >
                 Fiction
               </Nav.Link>
 
-              <Nav.Link href="Art" className="nav-links">
+              <Nav.Link onClick={() => setPage("Art")} className="nav-links">
                 Art
               </Nav.Link>
 
-              <Nav.Link href="Blog" className="nav-links">
+              <Nav.Link onClick={() => setPage("Blog")} className="nav-links">
                 Blog
               </Nav.Link>
 
@@ -111,7 +114,7 @@ function Home() {
                 Shop
               </Nav.Link>
 
-              <Nav.Link href="Contact" className="nav-links">
+              <Nav.Link onClick={() => setPage("About")} className="nav-links">
                 Contact
               </Nav.Link>
             </Nav>
