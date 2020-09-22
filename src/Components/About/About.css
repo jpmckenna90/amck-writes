@@ -8,3 +8,19 @@ h3 {
   /* position: sticky; */
   top: 0;
 }
+
+#bio-col,
+#social-col {
+  height: 100%
+}
+
+#bio-card,
+#social-card {
+  height: 100%;
+  padding:5% 0%;
+}
+
+#bio-row,
+#social-row {
+  height: 50%;
+}

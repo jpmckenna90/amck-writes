@@ -81,7 +81,7 @@ function Home() {
           </Col>
           <Col
             className="text-center desktop-nav my-1"
-            onClick={() => setPage("Contact")}
+            onClick={() => setPage("About")}
           >
             CONTACT
           </Col>

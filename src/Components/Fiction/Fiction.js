@@ -66,7 +66,7 @@ function Fiction() {
     <>
       <Container id="fiction-container">
         <Row>
-          <Col sm={12} md={4} lg={4}>
+          <Col sm={12} md={12} lg={4} className="my-2">
             <Card
               className="text-center fiction-card"
               onClick={() => {
@@ -84,7 +84,7 @@ function Fiction() {
               </p>
             </Card>
           </Col>
-          <Col sm={12} md={4} lg={4}>
+          <Col sm={12} md={12} lg={4} className="my-2">
             <Card
               className="text-center fiction-card"
               onClick={() => setStory("Dogs")}
@@ -98,7 +98,7 @@ function Fiction() {
               </p>
             </Card>
           </Col>
-          <Col sm={12} md={4} lg={4}>
+          <Col sm={12} md={12} lg={4} className="my-2">
             <Card className="text-center fiction-card">
               <h1 className="card-h1">The Interlegion</h1>
               <hr />
