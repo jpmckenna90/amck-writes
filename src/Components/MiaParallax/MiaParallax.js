@@ -3,29 +3,30 @@ import "./style.css";
 import { Parallax } from "react-scroll-parallax";
 
 function MiaParallax() {
-  window.addEventListener("scroll", function (e) {
-    let top = this.pageYOffset;
+  // window.addEventListener("scroll", function (e) {
+  //   let top = this.pageYOffset;
 
-    let layers = document.getElementsByClassName("parallax");
-    let layer, speed, yPos;
-    for (var i = 0; i < layers.length; i++) {
-      if (top < 420) {
-        layer = layers[i];
-        speed = layer.getAttribute("data-speed");
-        yPos = -((top * speed) / 100);
-        layer.setAttribute(
-          "style",
-          "transform: translate3d(0px, " + yPos + "px, 0px)"
-        );
-      }
-    }
-  });
+  //   let layers = document.getElementsByClassName("parallax");
+  //   console.log(layers)
+  //   let layer, speed, yPos;
+  //   for (var i = 0; i < layers.length; i++) {
+  //     if (top < 420) {
+  //       layer = layers[i];
+  //       speed = layer.getAttribute("data-speed");
+  //       yPos = -((top * speed) / 100);
+  //       layer.setAttribute(
+  //         "style",
+  //         "transform: translate3d(0px, " + yPos + "px, 0px)"
+  //       );
+  //     }
+  //   }
+  // });
 
   return (
     <>
       <div id="parallax-wrapper">
         {/* sky layer */}
-        {/* <Parallax className="custom-class" y={[0, 20]}> */}
+        {/* <Parallax offsetYMin={-100} offsetYMax={100}> */}
           <img
             alt="layer-1"
             id="layer-1"
