@@ -1,8 +1,15 @@
 import React from "react";
 import "./style.css";
-import { Parallax } from "react-scroll-parallax";
+// import { Parallax } from "react-scroll-parallax";
+import Plx from "react-plx";
 
 function MiaParallax() {
+  document.querySelector('.modal').addEventListener('scroll', function(e){
+    alert('modal scrollin')
+  })
+  // window.addEventListener("scroll", function (e) {
+  //   alert("modal scrollin");
+  // });
   // window.addEventListener("scroll", function (e) {
   //   let top = this.pageYOffset;
 
@@ -22,18 +29,32 @@ function MiaParallax() {
   //   }
   // });
 
+  const parallaxData = [
+    {
+      start: 0,
+      end: 500,
+      properties: [
+        {
+          startValue: 1,
+          endValue: 2,
+          property: "scale",
+        },
+      ],
+    },
+  ];
+
   return (
     <>
       <div id="parallax-wrapper">
         {/* sky layer */}
         {/* <Parallax offsetYMin={-100} offsetYMax={100}> */}
-          <img
-            alt="layer-1"
-            id="layer-1"
-            src={require("../../assets/images/new-images/Mia-7.png")}
-            className="parallax"
-            data-speed="11"
-          />
+        <img
+          alt="layer-1"
+          id="layer-1"
+          src={require("../../assets/images/new-images/Mia-7.png")}
+          className="parallax"
+          data-speed="11"
+        />
         {/* </Parallax> */}
         {/* back mountains */}
         <img

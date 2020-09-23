@@ -10,6 +10,7 @@
 #parallax-wrapper {
   height: 100vh;
   margin-top: 100px;
+  overflow:hidden;
 }
 
 #layer-1 {
